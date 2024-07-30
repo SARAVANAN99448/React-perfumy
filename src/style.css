@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-right: 15%;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    color: grey;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 5px;
+}
+
+/* Search */
+.searchbox {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.box {
+    border: black solid 1px;
+    width: 60%;
+    padding: 1%;
+}
+
+/* Products */
+.card-container {
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.card {
+    width: 220px;
+    border: solid black 1px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+/* About */
+.about{
+    text-align: center;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+
+}
